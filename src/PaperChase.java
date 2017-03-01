@@ -17,7 +17,7 @@ public class PaperChase
 	{
 		drone = new ARDrone();
 		drone.start();
-		drone.getCommandManager().setVideoChannel(VideoChannel.VERT);
+		drone.getCommandManager().setVideoChannel(VideoChannel.HORI);
 		
 		PaperChaseGUI gui = new PaperChaseGUI(drone, this);
 		
